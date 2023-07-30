@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="name" content="James Ronaldo">
+    <meta name="Descripcion" content="Portafolio de Desarrollo Web" >
+    <meta name="KeyWords" content="HTML, CSS, JAVASCRIPT, JAVA, PYTHON, BOOTSTRAP, SPRINGBOOT">
+    <meta name="viewport" content="width=device-width, inicial-scale=1">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Titulo-->
+    <title>James R.|Dev Backend</title>
+    <!--Favicon-->
+    <link rel="icon" href="iconos/favicon.ico" type="image/x-icon">
+    <!--Fonts titulo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--Icono en NavBar-->
+          <a class="navbar-brand" href="index.html">
+           <img src="iconos/favicon.ico" width="50" alt="Dev Backend">
+        </a>
+
+          <div class="collapse navbar-collapse" id="navbar-Toggler">
+
+            <ul class="navbar-nav d-flex justify-content-center align-item-center">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Aboutme.html">Sobre mi</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Proyectos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="contacto.html">contacto</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Seccion principal-->
+      <main>
+        <!--seccion testimonio-->
+      <section class="testimonio seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Esto son algunos de mis compa;eros</h3>
+
+      <!--Carrusel-->
+
+      <div id="testimonios-carusel" class="carousel  carousel-dark slide">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/perfil.png" alt="Foto o imagen de Gino" >
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius repudiandae ullam repellat ipsam qui incidunt similique esse magnam suscipit dolor aspernatur, expedita voluptatem odio reiciendis, voluptas sunt, excepturi fugit perferendis?</p>
+            <div class="testimonio-info">
+              <p class="cliente">Gino</p>
+              <p class="cargo">Gerente de proyectos</p>
+            </div>
+          </div>
+          </div>
+
+          <div class="carousel-item">
+
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/perfil2.jpg" alt="Foto o imagen de Gino" >
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius repudiandae ullam repellat ipsam qui incidunt similique esse magnam suscipit dolor aspernatur, expedita voluptatem odio reiciendis, voluptas sunt, excepturi fugit perferendis?</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de proyectos</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/perfil3.jpg" alt="Foto o imagen de Gino" >
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius repudiandae ullam repellat ipsam qui incidunt similique esse magnam suscipit dolor aspernatur, expedita voluptatem odio reiciendis, voluptas sunt, excepturi fugit perferendis?</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de proyectos</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div> 
+
+      </section>
+
+        <!--Seccion Contacto-->
+      <section class="contacto seccion-oscura">
+        <di class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        Hablemos!!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Contactame para iniciar tu proyecto de desarrollo web y hacer tu vision una realidad
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:jamesronaldoperez@gmail.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope-at-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </di>
+
+      </section>
+    </main>
+
+    <!--Footer de la pagina-->
+    <footer>
+        <div class="card text-center">
+            <div class="card-header">
+                © 2023 James Ronaldo P.
+            </div>
+
+            </div>
+    </footer>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
